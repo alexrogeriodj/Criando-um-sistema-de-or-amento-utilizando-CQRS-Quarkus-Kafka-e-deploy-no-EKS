@@ -8,7 +8,7 @@ According with [Martin Folwer](https://martinfowler.com/bliki/CQRS.html)
 
 Simulates a bank account scenario where an end user adds a income or expense transaction, and it is processed in a ascyncronous event sourcing and CQRS architecture to recalculate the user's bank account balance. The user can also request the balance of it's account. Down here you can see the design:
 
-![Design](/images/design.png)
+
 
 ## Deploying the external services
 
@@ -31,7 +31,7 @@ curl -X POST -H "Content-Type: application/json" -d @expense-transaction.json ht
 ```
 #### Running CURL request to fetch the balance
 ```
-curl http://localhost:8081/balance\?accountId\=wesley | json_pp
+curl http://localhost:8081/balance\?accountId\=alexrogeriodj | json_pp
 ```
 #### Running [K6's](https://k6.io) simple performance test
 ````
