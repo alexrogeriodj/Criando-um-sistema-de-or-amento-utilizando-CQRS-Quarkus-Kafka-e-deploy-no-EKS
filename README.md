@@ -1,3 +1,4 @@
+Criando um sistema de orçamento, utilizando CQRS, Quarkus, Kafka e deploy no EKS
 ## About CQRS - Command Query Responsibility Segregation
 
 According with [Martin Folwer](https://martinfowler.com/bliki/CQRS.html) 
