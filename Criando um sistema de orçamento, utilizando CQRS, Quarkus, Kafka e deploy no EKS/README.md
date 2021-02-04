@@ -31,7 +31,7 @@ curl -X POST -H "Content-Type: application/json" -d @expense-transaction.json ht
 ```
 #### Running CURL request to fetch the balance
 ```
-curl http://localhost:8081/balance\?accountId\=wesley | json_pp
+curl http://localhost:8081/balance\?accountId\=alexrogeriodj| json_pp
 ```
 #### Running [K6's](https://k6.io) simple performance test
 ````
